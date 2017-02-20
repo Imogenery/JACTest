@@ -1,0 +1,10 @@
+Font Awesome
+Manual Page 34
+Could not get the font-awesome package to work with Bower. Instead I 
+placed it in sage/assets/fonts folder then compiled with gulp.
+
+
+file: _variables.scss
+location: C:\wamp64\www\wp\wp-content\themes\sage\bower_components\bootstrap\scss
+line: 51
+Changed $brand-primary color from #0275d8 to #333

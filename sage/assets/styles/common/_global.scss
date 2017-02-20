@@ -1,0 +1,126 @@
+// Header banner
+.banner {
+	padding-top: 2em;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 0;
+}
+
+// Company logo
+#logo {
+	max-width: 100px;
+	position: relative;
+	left: 35%;
+}
+
+// Navigation menu toggle
+.nav {
+	background-color: $accent-color;
+	width: 25em;
+	li {
+		border-top: 1px solid darken($accent-color, 5%);
+		padding: 0.5em 0;
+		text-align: center;
+		list-style: none;
+		a {
+			color: $inverse-text-color;
+			font-size: 1.5em;
+		}
+	}
+}
+// Remove the white padding from Bootstrap dropdown menu
+.dropdown-menu {
+	padding: 0;
+}
+
+// Dropdown sub menu
+.sub-menu {
+	font-size: 10px;
+	li {
+		border: none;
+	}
+}
+
+// Container for the search and social media icons
+#search-social-media-icons {
+	position: relative;
+	padding-top: 15px;
+	float: right;
+	right: 7em;
+	bottom: 1em;
+}
+
+// Search and social media icons
+#share-icon,
+#search-icon {
+	color: $accent-color;
+}
+
+// Front page text block
+#front-page-text-block {
+	background-color: $accent-color;
+	padding: 10px;
+	div{
+		background-color: $accent-color;
+		border: 1px solid darken($accent-color, 5%);
+		color: $inverse-text-color;
+		text-align: center;
+		padding: 30px;
+
+		// Text block header
+		h4 {
+			text-decoration: overline underline;
+			margin-bottom: 1.25em;
+		}
+		
+		// Text block main text
+		p {
+			max-width: 50%;
+			margin: 0 auto;
+		}
+	}
+}
+
+
+
+// Footer
+footer {
+	font-size: 12px;
+	color: $gray-light;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	position: relative;
+	padding: 2rem;
+	margin-top: 3em;
+	text-align: center;
+	border-top: 1px solid $gray-lighter;
+	div {
+		span:first-child {
+			float: left;
+		}
+		span:last-child {
+			position: relative;
+			float: right;
+			right: 9em;
+			img {
+				margin-top: -1em;
+			}
+		}
+
+	}
+}
+
+// Carousel
+//
+// A placeholder for the slick-carousel feature
+.carousel {
+	width: 100%;
+	max-height: 600px;
+	margin-bottom: 2em;
+}
+
+// Front page listing of services
+#front-page-services {
+	list-style: none;
+}
